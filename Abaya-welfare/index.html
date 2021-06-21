@@ -516,7 +516,7 @@
 					<div class="col-md-4">
 							<div class="cnt">
 								<img src="https://ununsplash.imgix.net/photo-1429277158984-614d155e0017?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
-								<button class="btn btn-success" onclick="window.open('gallery.html');">Read More</button>
+								<button class="btn btn-success" onclick="window.open('gal/gallery.html');">Read More</button>
 							</div>
 							<div class="description">
 								<span class="caption"><b>Food Donations</b></span> 
@@ -526,7 +526,7 @@
 					<div class="col-md-4">
 							<div class="cnt">
 								<img src="https://unsplash.imgix.net/uploads/14115408840644deb16b0/2dc933e3?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
-								<button class="btn btn-success" onclick="window.open('E:/Abaya-welfare-main/gal/index.html','_blank');">Read More</button>
+								<button class="btn btn-success" onclick="window.open('gal/gallery.html');">Read More</button>
 							</div>
 							
 							<div class="description">
@@ -537,7 +537,7 @@
 					<div class="col-md-4">
 							<div class="cnt">
 								<img src="https://ununsplash.imgix.net/photo-1429277096327-11ee3b761c93?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
-								<button class="btn btn-success" onclick="window.open('E:/Abaya-welfare-main/gal/index.html','_blank');">Read More</button>
+								<button class="btn btn-success" onclick="window.open('gal/gallery.html');">Read More</button>
 							</div>
 							
 							<div class="description">
@@ -549,7 +549,7 @@
 					<div class="col-md-4">
 							<div class="cnt">
 								<img src="https://unsplash.imgix.net/uploads/141327328038701afeede/eda0fb7c?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
-								<button class="btn btn-success" onclick="window.open('E:/Abaya-welfare-main/gal/index.html','_blank');">Read More</button>
+								<button class="btn btn-success" onclick="window.open('gal/gallery.html');">Read More</button>
 							</div>
 							
 							<div class="description">
@@ -560,7 +560,7 @@
 					<div class="col-md-4">
 						<div class="cnt">
 							<img src="https://ununsplash.imgix.net/photo-1418225043143-90858d2301b4?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
-							<button class="btn btn-success" onclick="window.open('E:/Abaya-welfare-main/gal/index.html','_blank');">Read More</button>
+							<button class="btn btn-success" onclick="window.open('gal/gallery.html');">Read More</button>
 						</div>
 						
 						<div class="description">
@@ -639,20 +639,67 @@
 <!-- Random (Quote about donation)
 	================================================================================================== -->
 
-	<section class="whitecolor parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/5.jpg);">
-		
-		</section>
+	
 			
 
 
 
 <!-- Contact
 	============================================================================================================ -->
+	<section id="contactarea" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/map.png);">
+		<div class="wrapsection">
+			<div class="parallax-overlay" style="background-color: #4f88df;opacity:0.95;"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="maintitle">
+							<h3 class="section-title">Get in Touch</h3>
+							<p class="lead">
+								If you have questions about our events, don't hesitate to send us your message. This is a real working contact form, test it!
+							</p>
+						</div>
+						<form id="contact" name="contact" method="post" class="text-left">
+							<fieldset>
+								<div class="row">
+									<div class="col-md-4 wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="2s">
+										<label for="name">Name<span class="required">*</span></label>
+										<input type="text" name="name" id="name" size="30" value="" required/>
+									</div>
+									<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+										<label for="email">Email<span class="required">*</span></label>
+										<input type="text" name="email" id="email" size="30" value="" required/>
+									</div>
+									<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+										<label for="phone">Phone</label>
+										<input type="text" name="phone" id="phone" size="30" value=""/>
+									</div>
+								</div>
+								<div class="wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="1.5" style="margin-top:15px;">
+									<label for="message">Message<span class="required">*</span></label>
+									<textarea name="message" id="message" required></textarea>
+								</div>
+								<div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s">
+									<input id="submit" type="submit" name="submit" value="Send"/>
+								</div>
+							</fieldset>
+						</form>
+						<div id="success">		
+							<p class="contactalert">
+								Your message was sent succssfully! I will be in touch as soon as I can.
+							</p>			
+						</div>
+						<div id="error">			
+							<p class="contactalert">
+								 Something went wrong, try refreshing and submitting the form again.
+							</p>			
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
 
 
-<section id="contactarea" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/map.png);">
-
-</section>
 
 
 
@@ -662,9 +709,7 @@
 <!-- Credits (Social media links)
 ================================================================================================================ -->
 
-<section id="credits" class="text-center">
-	
-</section>
+
 
 
 <!-- footer
